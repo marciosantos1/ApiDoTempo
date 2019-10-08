@@ -10,6 +10,8 @@
   
   $client = new Client(array('base_uri' => $baseUrl));
   
+  
+  
   $response = $client->get('/data/2.5/weather', array(
       'query' => array('appid' => $appid, 'id' => $id)
      
